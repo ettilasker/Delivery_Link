@@ -1,0 +1,47 @@
+/* list.css */
+
+/* Container for the list with grid layout */
+.list-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four items per row */
+    gap: 20px;
+    padding: 20px;
+    list-style-type: none; /* Remove default list styling */
+  }
+  
+  /* Individual list item */
+  .list-container li {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for the list item header */
+  .list-container h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Styling for the list item content */
+  .list-container p {
+    margin: 5px 0;
+    color: #666;
+  }
+  /* Styling for the submit button */
+.list-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 2px;
+    border-radius: 4px;
+  }
+  
+  .list-container button:hover {
+    background-color: #0056b3;
+  }
